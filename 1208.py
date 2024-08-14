@@ -16,5 +16,8 @@ print(s)
 # Второй вариант словаря
 z = dict([[f[0],a], [f[1],b], [f[2],c], [f[3],d], [f[4],e]])
 print(z)
+# Третий вариант словаря
+w = dict(zip([f[0],f[1],f[2],f[3],f[4]],[a,b,c,d,e]))
+print(w)
 print(type(s))
 print(type(z))
