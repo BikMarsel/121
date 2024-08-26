@@ -12,7 +12,7 @@ string_info(string)
 
 def is_contains(string, list_to_search):
     count_calls()
-    if (string.upper() == list_to_search[0] or string.upper() == list_to_search[1] or string.upper() == list_to_search[2]):
+    if (string.upper() in list_to_search[0] or string.upper() in list_to_search[1] or string.upper() in list_to_search[2]):
         print('False')
     else:
         print('True')
