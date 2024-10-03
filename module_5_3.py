@@ -37,6 +37,11 @@ class House:
         return self + value
     def __iadd__(self, value):
         return self + value
+        
+number_of_floors = int()
+print(isinstance(number_of_floors, int))
+other = House
+print(isinstance(other, House))
 
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
